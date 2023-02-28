@@ -1,17 +1,21 @@
 body{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(141, 136, 136);
+color: rgb(61, 52, 52);
 background-color: lavender;
 }
-
+#my_p_tag {color: ;}
 
 h1 {
-    color: lightslategray;
+    color:purple;
 }
 
 h2 {
-color: dimgrey;
+color:darkmagenta;
 
 }
 
-h3 {color: gray;}
+h3 {color: indigo;}
+
+.myDiv {
+    border: 5px outset rgb(14, 28, 57);
+    background-color: lightblue;   
