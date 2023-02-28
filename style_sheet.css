@@ -17,8 +17,9 @@ color:darkmagenta;
 h3 {color: indigo;}
 
 .myDiv {
-    border: 5px outset rgb(14, 28, 57);
     background-color: rgb(163, 237, 237); 
     height: fit-content;
     width: 200px;
 }
+
+
