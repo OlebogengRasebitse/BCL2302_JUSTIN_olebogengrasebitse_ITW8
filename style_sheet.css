@@ -3,7 +3,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: rgb(61, 52, 52);
 background-color: lavender;
 }
-#my_p_tag {color: ;}
+#my_p_tag {color: green;}
 
 h1 {
     color:purple;
@@ -18,4 +18,5 @@ h3 {color: indigo;}
 
 .myDiv {
     border: 5px outset rgb(14, 28, 57);
-    background-color: lightblue;   
+    background-color: lightblue; 
+}
