@@ -1,4 +1,15 @@
-body{
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FFC25D;
+}
+
+.intro {
+    align-content: center;
+}
+
+
+body {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: rgb(61, 52, 52);
 background-color: lavender;
@@ -6,7 +17,7 @@ background-color: lavender;
 #my_p_tag {color: rgb(21, 16, 61);}
 
 h1 {
-    color:purple;
+    color:#693768;
 }
 
 h2 {
@@ -17,11 +28,23 @@ color:darkmagenta;
 h3 {color: indigo;}
 
 .myDiv {
+    margin: 0.5%;
     background-color: rgb(163, 237, 237); 
     height: fit-content;
     width: 200px;
 }
 
 img {border-radius: 50%; width: 200px;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+     
 }
 
