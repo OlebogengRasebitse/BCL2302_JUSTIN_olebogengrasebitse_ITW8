@@ -1,38 +1,38 @@
-header {
+ header {  
+
     display: flex;
     justify-content: center;
     background-color: #FFC25D;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
-padding-top: 20px;
-}
+    padding-top: 20px;
+    }
 
 img {border-radius: 50%; width: 180px;
-}  
+ }  
 
 
-
-
-body {
+ body {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: rgb(61, 52, 52);
 background-color: lavender;
+ 
 }
-#my_p_tag {color: rgb(21, 16, 61);}
+ #my_p_tag {color:#0E0E00 (21, 16, 61);}
 
-h1 {
-    color:#693768;
-}
-
-h2 {
+ h1 {
+    color:#0E0E00;
+ }
+  h2 {
 color:darkmagenta;
 
+ 
 }
 
-h3 {color: indigo;}
+ h3 {color:#0E0E00 ;}
 
-.myDiv {
+ .myDiv {
     margin: 0.1%;
     background-color: rgb(163, 237, 237); 
     height: fit-content;
