@@ -2,11 +2,16 @@ header {
     display: flex;
     justify-content: center;
     background-color: #FFC25D;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+padding-top: 20px;
 }
 
-.intro {
-    align-content: center;
-}
+img {border-radius: 50%; width: 180px;
+}  
+
+
 
 
 body {
@@ -28,23 +33,36 @@ color:darkmagenta;
 h3 {color: indigo;}
 
 .myDiv {
-    margin: 0.5%;
+    margin: 0.1%;
     background-color: rgb(163, 237, 237); 
     height: fit-content;
     width: 200px;
 }
 
-img {border-radius: 50%; width: 200px;
+
+.education {
+    margin: 20px;
+    padding: 40px;
+    border: solid #FFC25D;
 }
 
-aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-     
+.experience {
+    margin: 20px;
+    padding: 40px;
+    border: solid #FFC25D;
+
+}
+
+.skills {
+    margin: 20px;
+    padding: 40px;
+    border: solid #FFC25D;
+
+}
+
+footer {
+    margin: 20px;
+    padding: 40px;
+    border: solid #FFC25D;
 }
 
