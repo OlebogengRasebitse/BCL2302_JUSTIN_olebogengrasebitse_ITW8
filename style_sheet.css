@@ -6,7 +6,8 @@ header {
    flex-direction: column;
    align-items: center;
    margin-bottom: 10px;
-   padding-top: 20px;
+   padding-top: 110px;
+   position: relative;
    }
 
 img {border-radius: 50%; width: 180px;
@@ -63,3 +64,14 @@ footer {
    border: solid #ffffff;
    }
 
+#h1 {
+position: fixed;
+background-color: #FFC25D;
+padding: 20px;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+text-align: center;
+margin: 0;
+}
