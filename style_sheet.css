@@ -9,60 +9,56 @@
     padding-top: 20px;
     }
 
-img {border-radius: 50%; width: 180px;
- }  
+      img {border-radius: 50%; width: 180px;
+     }  
 
 
- body {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(61, 52, 52);
-background-color: lavender;
+     body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(61, 52, 52);
+     background-color: lavender;
  
-}
- #my_p_tag {color:#0E0E00 (21, 16, 61);}
+     }
+     #my_p_tag {color:#0E0E00 (21, 16, 61);}
 
- h1 {
-    color:#0E0E00;
- }
-  h2 {
-color:darkmagenta;
+     h1 {
+     color:#0E0E00;
+     }
+     h2 {
+     color:darkmagenta;
+     }
 
- 
-}
+     h3 {color:#0E0E00;
+    }
 
- h3 {color:#0E0E00 ;}
+     .myDiv {
+     margin: 0.1%;
+     background-color: rgb(163, 237, 237); 
+     height: fit-content;
+     width: 200px;
+     }
 
- .myDiv {
-    margin: 0.1%;
-    background-color: rgb(163, 237, 237); 
-    height: fit-content;
-    width: 200px;
-}
+     .education {
+     margin: 20px;
+     padding: 40px;
+     border: solid #FFC25D;
+     }
 
+     .experience {
+     margin: 20px;
+     padding: 40px;
+     border: solid #FFC25D;
+     }
+     
+     .skills {
+     margin: 20px;
+     padding: 40px;
+     border: solid #FFC25D;
+     } 
 
-.education {
-    margin: 20px;
-    padding: 40px;
-    border: solid #FFC25D;
-}
-
-.experience {
-    margin: 20px;
-    padding: 40px;
-    border: solid #FFC25D;
-
-}
-
-.skills {
-    margin: 20px;
-    padding: 40px;
-    border: solid #FFC25D;
-
-}
-
-footer {
-    margin: 20px;
-    padding: 40px;
-    border: solid #FFC25D;
-}
+     footer {
+     margin: 20px;
+     padding: 40px;
+     border: solid #FFC25D;
+     }
 
