@@ -95,3 +95,7 @@ margin: 0;
    font-size: 18px; 
  }
 
+.container {
+   display: flex;
+   justify-content:center;
+}
