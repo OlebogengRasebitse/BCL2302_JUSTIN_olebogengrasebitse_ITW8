@@ -60,12 +60,14 @@ h3 {color:#0E0E00;
    margin: 20px;
    padding: 40px;
    border: solid #ffffff;
+   flex: 2;
    } 
 
 footer {
    margin: 20px;
    padding: 40px;
    border: solid #ffffff;
+   flex: 2;
    }
 
 #h1 {
@@ -95,7 +97,10 @@ margin: 0;
    font-size: 18px; 
  }
 
-.container {
-   display: flex;
-   justify-content:center;
+.box {
+display: flex;
 }
+
+
+
+
