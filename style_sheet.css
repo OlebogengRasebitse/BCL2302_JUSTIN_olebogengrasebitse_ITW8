@@ -1,4 +1,4 @@
-header {  
+header {
 
    display: flex;
    justify-content: center;
@@ -8,99 +8,100 @@ header {
    margin-bottom: 10px;
    padding-top: 110px;
    position: relative;
-   }
+}
 
-img {border-radius: 50%; width: 180px;
-   }  
+img {
+   border-radius: 50%;
+   width: 180px;
+}
 
 
 body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: rgb(61, 52, 52);
-   background-color:#BFA5A5 ;
-   }
+   background-color: #BFA5A5;
+}
 
-#my_p_tag {color:#0E0E00 (21, 16, 61);}
+#my_p_tag {
+   color: #0E0E00 (21, 16, 61);
+}
 
 h1 {
-   color:#0E0E00;
-   }
+   color: #0E0E00;
+}
 
 h2 {
-     color:darkmagenta;
-     }
+   color: darkmagenta;
+}
 
-h3 {color:#0E0E00;
-    }
+h3 {
+   color: #0E0E00;
+}
 
 .myDiv {
    padding: 10px;
    margin: 1px;
-   background-color: rgb(221, 204, 108); 
+   background-color: rgb(221, 204, 108);
    height: fit-content;
    width: 200px;
    position: sticky;
    top: 100px;
-   }
+}
 
 .education {
    margin: 20px;
    padding: 40px;
-   border: 1px solid #ffffff;  
+   border: 1px solid #ffffff;
    flex: 3;
-   }
+}
 
-   .experience {
-    margin: 20px;
-    padding: 40px;
-    border: solid #fffdf9;
-  }
-     
+.experience {
+   margin: 20px;
+   padding: 40px;
+   border: solid #fffdf9;
+}
+
 .skills {
    margin: 20px;
    padding: 40px;
    border: solid #ffffff;
    flex: 2;
-   } 
+}
 
 footer {
    margin: 20px;
    padding: 40px;
    border: solid #ffffff;
    flex: 2;
-   }
+}
 
 #h1 {
-position: fixed;
-background-color: #FFC25D;
-padding: 20px;
-width: 100%;
-z-index: 1;
-top: 0;
-left: 0;
-text-align: center;
-margin: 0;
+   position: fixed;
+   background-color: #FFC25D;
+   padding: 20px;
+   width: 100%;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   text-align: center;
+   margin: 0;
 }
 
 #myBtn {
-   display:block; 
-   position: fixed; 
-   bottom: 20px; 
-   right: 30px;  
-   border: none; 
-   outline: none; 
-   background-color: red; 
-   color: white; 
-   cursor: pointer; 
-   padding: 15px; 
+   display: block;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   border: none;
+   outline: none;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+   padding: 15px;
    border-radius: 10px;
-   font-size: 18px; 
- }
-
-.box {
-display: flex;
+   font-size: 18px;
 }
 
-
-
-
+.box {
+   display: flex;
+}
