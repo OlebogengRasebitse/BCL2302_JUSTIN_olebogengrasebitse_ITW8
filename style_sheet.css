@@ -2,16 +2,16 @@ header {
 
    display: flex;
    justify-content: center;
-   background-color: #FFC25D;
+   background-color: #303641;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 10px;
+   margin-bottom: 0px;
    padding-top: 110px;
    position: relative;
 }
 
 a {
-   color: #0E0E00;
+   color: #cacbcc;
 }
 
 img {
@@ -27,25 +27,25 @@ body {
 }
 
 #my_p_tag {
-   color: #0E0E00 (21, 16, 61);
+   color:#cacbcc;
 }
 
 h1 {
-   color: #0E0E00;
+   color: #cacbcc;
 }
 
 h2 {
-   color: darkmagenta;
+   color: #303641;
 }
 
 h3 {
-   color: #0E0E00;
+   color: #303641;
 }
 
 .myDiv {
    padding: 10px;
    margin: 1px;
-   background-color: rgb(221, 204, 108);
+   background-color:#303641 ;
    height: fit-content;
    width: 200px;
    position: sticky;
@@ -70,7 +70,7 @@ h3 {
    padding: 40px;
    border: solid #ffffff;
    flex: 2;
-   color: #0E0E00;
+   color: #303641;
 }
 
 footer {
@@ -82,8 +82,8 @@ footer {
 
 #h1 {
    position: fixed;
-   background-color: #FFC25D;
-   padding: 20px;
+   background-color: #303641;
+   padding: 30px;
    width: 100%;
    z-index: 1;
    top: 0;
@@ -91,6 +91,7 @@ footer {
    text-align: center;
    margin: 0;
 }
+
 
 
 .box {
