@@ -10,6 +10,10 @@ header {
    position: relative;
 }
 
+a {
+   color: #0E0E00;
+}
+
 img {
    border-radius: 50%;
    width: 180px;
@@ -66,6 +70,7 @@ h3 {
    padding: 40px;
    border: solid #ffffff;
    flex: 2;
+   color: #0E0E00;
 }
 
 footer {
@@ -87,20 +92,6 @@ footer {
    margin: 0;
 }
 
-#myBtn {
-   display: block;
-   position: fixed;
-   bottom: 20px;
-   right: 30px;
-   border: none;
-   outline: none;
-   background-color: red;
-   color: white;
-   cursor: pointer;
-   padding: 15px;
-   border-radius: 10px;
-   font-size: 18px;
-}
 
 .box {
    display: flex;
