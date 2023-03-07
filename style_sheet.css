@@ -11,7 +11,7 @@ header {
 }
 
 a {
-   color: #cacbcc;
+   color: #303641;
 }
 
 img {
@@ -23,7 +23,7 @@ img {
 body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: rgb(61, 52, 52);
-   background-color: #BFA5A5;
+   background-color: #74777b;
 }
 
 #my_p_tag {
@@ -45,7 +45,7 @@ h3 {
 .myDiv {
    padding: 10px;
    margin: 1px;
-   background-color:#303641 ;
+   background-color: #74777b;
    height: fit-content;
    width: 200px;
    position: sticky;
