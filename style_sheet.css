@@ -15,7 +15,7 @@ a {
 }
 
 img {
-   border-radius: 50%;
+   border-radius:  50%;
    width: 180px;
 }
 
@@ -23,15 +23,15 @@ img {
 body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: rgb(61, 52, 52);
-   background-color: #74777b;
+   background-color: #fdfdfd;
 }
 
 #my_p_tag {
-   color:#cacbcc;
+   color:#479cd0;
 }
 
 h1 {
-   color: #cacbcc;
+   color: #479cd0;
 }
 
 h2 {
@@ -45,7 +45,7 @@ h3 {
 .myDiv {
    padding: 10px;
    margin: 1px;
-   background-color: #74777b;
+   background-color: #fdfdfd;
    height: fit-content;
    width: 200px;
    position: sticky;
@@ -55,20 +55,20 @@ h3 {
 .education {
    margin: 20px;
    padding: 40px;
-   border: 1px solid #ffffff;
+   border: solid #479cd0;
    flex: 3;
 }
 
 .experience {
    margin: 20px;
    padding: 40px;
-   border: solid #fffdf9;
+   border: solid #479cd0;
 }
 
 .skills {
    margin: 20px;
    padding: 40px;
-   border: solid #ffffff;
+   border: solid #479cd0;
    flex: 2;
    color: #303641;
 }
@@ -76,7 +76,7 @@ h3 {
 footer {
    margin: 20px;
    padding: 40px;
-   border: solid #ffffff;
+   border: solid #479cd0;
    flex: 2;
 }
 
