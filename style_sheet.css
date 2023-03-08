@@ -14,6 +14,8 @@ header {
 
 #hero {
   background-image: url(img/scott-gummerson-Zt1j8RuCcqo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
