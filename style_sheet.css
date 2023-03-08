@@ -8,6 +8,7 @@ header {
    margin-bottom: 0px;
    padding-top: 110px;
    position: relative;
+   width: 100%;
 
 
 }
@@ -16,6 +17,8 @@ header {
   background-image: url(img/scott-gummerson-Zt1j8RuCcqo-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: contain ;
+
 
 }
 
@@ -26,6 +29,7 @@ a {
 
 img {
    border-radius: 50%;
+
 }
 
 
@@ -37,6 +41,9 @@ body {
 
 #my_p_tag {
    color:#479cd0;
+   background-color: black;
+   width: ;
+   
 }
 
 h1 {
