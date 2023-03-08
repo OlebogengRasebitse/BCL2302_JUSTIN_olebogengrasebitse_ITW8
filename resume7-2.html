@@ -7,19 +7,23 @@
     <title>My digital resume</title>
     <link rel="stylesheet" href="style_sheet.css">
 </head>
-    <div></div>
 <body>
 
-    <header>
+
+    <header id="hero">
         <picture>
-            <source srcset="./img/faceshot.jpg">
-            <source srcset="./img/shouldershot.jpg">
-            <img src="./img/halfbodyshot.jpg> height" alt="Image" width="200" height="170> 
+            <source srcset="./img/faceshot.jpg" media="(max-width: 600px)">
+            <source srcset="./img/shouldershot.jpg" media="(max-width:1000px)">
+            <img src="./img/halfbodyshot.jpg" alt= "Image" width="450px" height="500px" alt="profile photo">
         </picture>
+
         <h1 id="h1">Olebogeng Rasebitse</h1>
         <p id="my_p_tag">Introductory personal statement.</p>
+    
 
     </header>
+
+
     <div class="myDiv">
         <ul>
             <li><a href="#Education">Education</a></li>
@@ -27,6 +31,9 @@
             <li><a href="#Skills">Skills</a></li>
         </ul>
     </div>
+
+
+
     <section>
 
         <div class="education">
@@ -54,7 +61,9 @@
 
             <h3>Job 1</h3>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Aliquam nulla facilisi cras fermentum odio. Proin sagittis nisl rhoncus mattis
                 rhoncus urna neque. Libero volutpat sed cras ornare arcu dui vivamus arcu. Phasellus faucibus
                 scelerisque eleifend donec pretium. Cursus in hac habitasse platea dictumst quisque sagittis purus.
@@ -129,6 +138,7 @@
             </footer>
         </div>
     </section>
+
 </body>
 
 </html>
