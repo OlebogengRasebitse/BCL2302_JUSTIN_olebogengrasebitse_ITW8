@@ -28,7 +28,8 @@ a {
 }
 
 img {
-   border-radius: 50%;
+   border-radius: 50%; 
+   border: 5px solid #479cd0;
 
 }
 
