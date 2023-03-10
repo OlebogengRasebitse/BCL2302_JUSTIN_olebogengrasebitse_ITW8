@@ -9,20 +9,18 @@ header {
    padding-top: 110px;
    position: relative;
    width: 100%;
-   
+
 
 
 }
 
 #hero {
-  background-image: url(img/scott-gummerson-Zt1j8RuCcqo-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: contain ;
-  width: 100%;
-mar
-
-
+   background-image: url(img/scott-gummerson-Zt1j8RuCcqo-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: contain;
+   width: 100%;
+   mar
 }
 
 
@@ -31,12 +29,12 @@ a {
 }
 
 img {
-   border-radius: 50%; 
+   border-radius: 50%;
    border: 5px solid #479cd0;
    height: 400px;
    width: 350px;
 
-   
+
 
 }
 
@@ -48,19 +46,20 @@ body {
    margin: 5px;
    top: 0;
    left: 0;
-  
+   font-size: 20px;
+
 }
 
 #my_p_tag {
-   color:#479cd0;
+   color: #479cd0;
    background-color: black;
 
-   
+
 }
 
 h1 {
    color: #479cd0;
- 
+
 }
 
 h2 {
@@ -72,11 +71,11 @@ h3 {
 }
 
 .myDiv {
-   padding: 10px;
+   padding: 1px;
    margin: 1px;
    background-color: #fdfdfd;
    height: fit-content;
-   width: 200px;
+   width: 170px;
    position: sticky;
    top: 100px;
 }
@@ -133,62 +132,98 @@ footer {
 
 /*=======================================Mobile===========================================================*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
 
-body {
-   padding: 1px;
-   border: 10px;
-   width:100% ;
+   body {
+      padding: 0px;
+      border: 10px;
+      width: 100%;
 
-   
-}
 
-img {
-   width: 120px;
-   height: 150px;
-}
+   }
+
+   img {
+      width: 120px;
+      height: 150px;
+   }
 
 
    header {
-font-size: 20px;
-line-height: 30px;
-font-size: small;
-padding-left: 20px;
-padding-right: 50px;
-height: 200px;
-width: 100%;
-padding: ;
+
+      line-height: 25px;
+      font-size: 10px;
+      padding-left: 20px;
+      padding-right: 50px;
+      height: 200px;
+      width: 100%;
+      margin: 0;
+      right: 0;
+      left: 0;
+   }
+
+   .myDiv {
+      font-size: 10px;
+      margin: 0px;
+   }
+
+   .education {
+      font-size: 10px;
+      margin: 20px;
+      width: 90%;
+      padding: 4px;
+   }
+
+
+   .experience {
+      margin: 20px;
+      width: 90%;
+      padding: 4PX;
+      font-size: 10px;
+
+   }
+
+
+   .skills {
+      margin: 1;
+      padding: 10;
+      width: 100%;
+
+   }
+
+   .contacts
 }
 
-.education{
+h1 {
+   font-size: 12;
+   padding: 10px;
+   padding-right: 2px;
+}
+
+
+h2 {
    font-size: 10px;
-   margin: 30px;
-   width: 90%;
-   padding: 9px;
-}
-
-
-.experience{
-   margin: 30px;
-   font-size: 10px;
-   width: 90%;
-   padding: 9PX;
 
 }
 
-   
-.skills {
-margin: 10px;
-   font-size: 12px;
-   margin: 10px;
-  
+
+h3 {
+   font-size: 8px;
 }
+
+footer {
+   margin: 1px;
+   padding: 5px;
+
+
 
 
 }
+
 
 /*----------------------------------------Tablet-------------------------------------------------------*/
-@media screen and (max-width: 1024px)
+@media screen and (max-width:769px) {
+ 
+}
 
 
 
@@ -198,11 +233,62 @@ margin: 10px;
 
 /*----------------------------------------Standard Desktop-------------------------------------------------------*/
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width:1224px) {
 
-   .myDiv{
-      width: 20%;
-      display: inline-block ;
+
+
+
+   header {
+      font-size: 30px;
+      padding-left: 20px;
+      padding-right: 50px;
+      height: 500px;
+      width: 100%;
+      margin: 0;
+
    }
+
+
+   #h1 {
+      font-size: 30px;
+   }
+
+
+
+
+   .myDiv {
+      width: 20%;
+      display: inline-block;
+      width: 100%;
+   }
+
+   h1 {
+      font-size: 20px;
+   }
+
+   h2 {
+      font-size: 18px ;
+
+   }
+
+   h3 {
+      font-size: 14px;
+   }
+
+
+   body {
+     font-size: 20px;
+   }
+
+   .skills {
+      font-size: 20px;
+   }
+
+   footer {
+      margin: 1px;
+      padding: 5px;
+      font-size: 20px;
+
+      
 
 }
