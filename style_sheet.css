@@ -10,8 +10,6 @@ header {
    position: relative;
    width: 100%;
 
-
-
 }
 
 #hero {
@@ -20,13 +18,14 @@ header {
    background-size: cover;
    background-position: contain;
    width: 100%;
-   mar
+
 }
 
 
 a {
    color: #303641;
 }
+
 
 img {
    border-radius: 50%;
@@ -53,6 +52,8 @@ body {
 #my_p_tag {
    color: #479cd0;
    background-color: black;
+   font-size: 16px;
+   margin-top: 1px;
 
 
 }
@@ -75,10 +76,10 @@ h3 {
    margin: 1px;
    background-color: #fdfdfd;
    height: fit-content;
-   width: 170px;
+   width: 175px;
    position: sticky;
-   top: 120px;
-   
+   top: 71px;
+
 }
 
 .education {
@@ -148,6 +149,9 @@ footer {
       height: 150px;
    }
 
+   #my_p_tag {
+      font-size: 8px;
+   }
 
    header {
 
@@ -169,6 +173,7 @@ footer {
       font-size: 10px;
       margin: 0px;
       position: sticky;
+      top: 45px;
 
    }
 
@@ -202,45 +207,45 @@ footer {
    }
 
 
-h1 {
-   font-size: 15px;
+   h1 {
+      font-size: 15px;
 
-}
-
-
-h2 {
-   font-size: 12px;
-
-}
+   }
 
 
-h3 {
-   font-size: 11px;
-}
+   h2 {
+      font-size: 12px;
 
-footer {
-   margin: 1px;
-   padding: 5px;
-}
-
-#h1 {
-   position: fixed;
-   font-size: 14px;
-   padding: 10px;
-
-}
+   }
 
 
-#hero {
-height: 180px;
-}
+   h3 {
+      font-size: 11px;
+   }
+
+   footer {
+      margin: 1px;
+      padding: 5px;
+   }
+
+   #h1 {
+      position: fixed;
+      font-size: 14px;
+      padding: 10px;
+
+   }
+
+
+   #hero {
+      height: 180px;
+   }
 
 }
 
 
 /*----------------------------------------Tablet-------------------------------------------------------*/
 @media screen and (min-width:768px) and (max-width:1025px) {
- 
+
    body {
       padding: 0px;
       border: 10px;
@@ -261,9 +266,11 @@ height: 180px;
       font-size: 15px;
    }
 
-.myDiv {
-   font-size: 12px;
-}
+   .myDiv {
+      font-size: 12px;
+      position: sticky;
+      top: 62px;
+   }
 
 
 
@@ -283,9 +290,9 @@ height: 180px;
 
 @media screen and (min-width:1024px) {
 
-    body {
+   body {
       font-size: 10px;
-    }
+   }
 
 
    header {
@@ -307,9 +314,7 @@ height: 180px;
 
 
    .myDiv {
-      width: 20%;
-      width: 100%;
-      position: sticky;
+      width: 15%;
       font-size: 16px;
    }
 
@@ -318,7 +323,7 @@ height: 180px;
    }
 
    h2 {
-      font-size: 23px ;
+      font-size: 23px;
 
    }
 
@@ -328,7 +333,7 @@ height: 180px;
 
 
    body {
-     font-size: 16px;
+      font-size: 16px;
    }
 
    .skills {
@@ -342,14 +347,14 @@ height: 180px;
       margin: 1px;
       padding: 5px;
       font-size: 16px;
-     
+
    }
 
-      img {
-         height: 390px;
-         width: 350px;
+   img {
+      height: 390px;
+      width: 350px;
 
 
-      }
+   }
 
 }
